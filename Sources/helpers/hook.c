@@ -3,7 +3,6 @@
 
 static void  generate_jump_code(u32 jump_addr, u32 *jump_code)
 {
-   // jump_code[0] = 0xE28FE004; // ADD   LR, PC, #4
     jump_code[0] = 0xE51FF004; // LDR   PC, [PC, #-4]
     jump_code[1] = jump_addr;
 }
@@ -37,7 +36,6 @@ void    enable_hook(t_hook *hook)
     if (hook->is_enabled || !hook->is_initialized)
         return;
     memcpy((void *)hook->target_address, hook->jump_code, 8);
-    //svcFlushProcessDataCache(0xFFFF8001, (u32)hook->target_address, 8);
     hook->is_enabled = 1;
 }
 
@@ -46,6 +44,5 @@ void    disable_hook(t_hook *hook)
     if (!hook->is_enabled || !hook->is_initialized)
         return;
     memcpy((void *)hook->target_address, hook->target_code, 8);
-    //svcFlushProcessDataCache(0xFFFF8001, (u32)hook->target_address, 8);
     hook->is_enabled = 0;
 }

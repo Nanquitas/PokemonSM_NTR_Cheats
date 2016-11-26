@@ -25,7 +25,6 @@ void	my_menus(void)
 	// Unlock stick and touch screen capabilities
 	set_hid_address(0x10002000);
 	
-	pokemon_spawner_menu();
 	new_spoiler("!!!   FAQ   !!!");
 		new_separator();
 		new_unselectable_entry("Press Y when the cursor is");
@@ -33,6 +32,8 @@ void	my_menus(void)
 		new_unselectable_entry("the selected cheat.");
 		new_separator();
 	exit_spoiler();
+	// Menu declaration in pokemon_spawner.c
+	pokemon_spawner_menu();
 	new_spoiler("Battle cheats");
 		new_spoiler("Speed Multiplier");
 			new_radio_entry("Walk/Run Speed x0.5", speed_multiplier_x05);
