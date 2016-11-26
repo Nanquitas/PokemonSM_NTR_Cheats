@@ -1,0 +1,947 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"u32"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"wal",
+				"walk_through_walls"
+			],
+			[
+				"p",
+				"pc_from_option"
+			],
+			[
+				"new_entry",
+				"new_entry_index"
+			],
+			[
+				"disabl",
+				"disable_entry"
+			],
+			[
+				"g_",
+				"g_pc_option_hook2"
+			],
+			[
+				"g",
+				"g_pc_option_hook1"
+			],
+			[
+				"ho",
+				"hooked_pc_option2"
+			],
+			[
+				"hook",
+				"hooked_pc_option1"
+			],
+			[
+				"RE",
+				"RESTORE_TP"
+			],
+			[
+				"sa",
+				"save_teleport"
+			],
+			[
+				"g_te",
+				"g_text_activated"
+			],
+			[
+				"g_sa",
+				"g_teleport_save"
+			],
+			[
+				"text_",
+				"g_text_activated"
+			],
+			[
+				"pat",
+				"pattern_size"
+			],
+			[
+				"g_wh",
+				"g_whateverthis1"
+			],
+			[
+				"g_h",
+				"g_whateverthis1"
+			],
+			[
+				"g_indo",
+				"g_indoor_pos_y"
+			],
+			[
+				"g_ind",
+				"g_indoor_pos_y"
+			],
+			[
+				"g_ou",
+				"g_outdoor_pos_y"
+			],
+			[
+				"g_out",
+				"g_outdoor_pos_y"
+			],
+			[
+				"g_o",
+				"g_outdoor_pos_x"
+			],
+			[
+				"ass",
+				"assign_region"
+			],
+			[
+				"USA",
+				"USA_OUTDOOR_POS_X_ADDR"
+			],
+			[
+				"g_in",
+				"g_indoor_pos_y"
+			],
+			[
+				"UA",
+				"USA_LOCATION_ADDR"
+			],
+			[
+				"api",
+				"apiVersionPatched"
+			],
+			[
+				"device",
+				"deviceID"
+			],
+			[
+				"patter",
+				"patternSize"
+			],
+			[
+				"up",
+				"update_tan_entry_usa"
+			],
+			[
+				"tan",
+				"tan_level_buffer"
+			],
+			[
+				"get",
+				"get_current_tan_level"
+			],
+			[
+				"new",
+				"new_spoiler"
+			],
+			[
+				"pokem",
+				"pokemon_spawner"
+			],
+			[
+				"sele",
+				"selectedId"
+			],
+			[
+				"Gene",
+				"generatePokemon"
+			],
+			[
+				"gene",
+				"generatePokemon"
+			],
+			[
+				"update",
+				"updateLevelEntry"
+			],
+			[
+				"addDe",
+				"addDecadeLevel"
+			],
+			[
+				"gen",
+				"generate"
+			],
+			[
+				"select",
+				"selectedLevel"
+			],
+			[
+				"m",
+				"my_socket"
+			],
+			[
+				"conne",
+				"connectServerError"
+			],
+			[
+				"re",
+				"resolvingHostError"
+			],
+			[
+				"cre",
+				"create_addrinfo_struct"
+			],
+			[
+				"port",
+				"port_str"
+			],
+			[
+				"Cr",
+				"createSocketError"
+			],
+			[
+				"creat",
+				"create_socket"
+			],
+			[
+				"is",
+				"is_pressed"
+			],
+			[
+				"tan_u",
+				"tan_usa_common"
+			],
+			[
+				"indoo",
+				"indoor_Y_address"
+			],
+			[
+				"indo",
+				"indoor_X_address"
+			],
+			[
+				"out",
+				"outdoor_X"
+			],
+			[
+				"tm",
+				"tm_note"
+			],
+			[
+				"tt",
+				"tt_note"
+			],
+			[
+				"tele",
+				"tele_note"
+			],
+			[
+				"cm",
+				"cm_note"
+			],
+			[
+				"mj",
+				"mj_note"
+			],
+			[
+				"war",
+				"warp_note"
+			],
+			[
+				"tree",
+				"tree_note"
+			],
+			[
+				"des",
+				"des_note"
+			],
+			[
+				"flw",
+				"flwr_note"
+			],
+			[
+				"wee",
+				"weed_note"
+			],
+			[
+				"time",
+				"time_note"
+			],
+			[
+				"warp",
+				"warp_note"
+			],
+			[
+				"tra",
+				"trans_note"
+			],
+			[
+				"dup",
+				"dup_note"
+			],
+			[
+				"t2",
+				"t2i_note"
+			],
+			[
+				"tre",
+				"tree_note"
+			],
+			[
+				"sar",
+				"sar_note"
+			],
+			[
+				"see",
+				"seed_note"
+			],
+			[
+				"rea",
+				"real_note"
+			],
+			[
+				"lus",
+				"lush_note"
+			],
+			[
+				"fl",
+				"flwr_note"
+			],
+			[
+				"envir",
+				"enviro_note"
+			],
+			[
+				"trans",
+				"trans_note"
+			],
+			[
+				"ch",
+				"cheatfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Sources/utility_cheats.c",
+			"settings":
+			{
+				"buffer_size": 6607,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sources/helpers/helpers.c",
+			"settings":
+			{
+				"buffer_size": 1837,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sources/menu.c",
+			"settings":
+			{
+				"buffer_size": 4273,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Includes/common.h",
+			"settings":
+			{
+				"buffer_size": 1849,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sources/hooked_cheats.s",
+			"settings":
+			{
+				"buffer_size": 2674,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sources/notes.h",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sources/battle_cheats.c",
+			"settings":
+			{
+				"buffer_size": 4989,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Sources/cheats.c",
+			"settings":
+			{
+				"buffer_size": 1620,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sources/cheats.h",
+			"settings":
+			{
+				"buffer_size": 2838,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Nanquitas/Desktop/Pokemon Plugin",
+		"/C/Users/Nanquitas/Desktop/Pokemon Plugin/Includes",
+		"/C/Users/Nanquitas/Desktop/Pokemon Plugin/Sources",
+		"/C/Users/Nanquitas/Desktop/Pokemon Plugin/Sources/helpers"
+	],
+	"file_history":
+	[
+		"/C/Users/Nanquitas/Downloads/ntr_helloworld-master/include/libntrplg/ns/ns.h",
+		"/C/devkitPro/libctru/include/3ds/os.h",
+		"/C/devkitPro/libctru/include/3ds/env.h",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/cheats.h",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/helpers.c",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/cheats.c",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/create_menu.c",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/config.h",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/3ds.ld",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/build.py",
+		"/C/Users/Nanquitas/Desktop/extractasm.py",
+		"/C/Users/Nanquitas/Desktop/Luma3DS/exceptions/exception_dump_parser.py",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Includes/common.h",
+		"/D/Cheat_Gateway/libShark2NTR/libShark2NTR/Sources/menu_functions.c",
+		"/D/Cheat_Gateway/libShark2NTR/libShark2NTR/Sources/menu_display.c",
+		"/D/Cheat_Gateway/libShark2NTR/libShark2NTR/Sources/menu.c",
+		"/D/Cheat_Gateway/libShark2NTR/libShark2NTR - Dev/Sources/bootloader.s",
+		"/D/Cheat_Gateway/libShark2NTR/libShark2NTR - Dev/3ds.ld",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/System/Err.hpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/src/cpp3ds/System/Err.cpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/src/cpp3ds/Graphics/Font.cpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/src/cpp3ds/Graphics/Text.cpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Window/Window.hpp",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/cheats_usa.c",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/src/cpp3ds/Window/EventManager.cpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/src/cpp3ds/Window/Game.cpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Window/Touch.hpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Window/EventManager.hpp",
+		"/C/Users/Nanquitas/Source/Repos/NTRViewer/NTRViewer.cpp",
+		"/E/Cheat_Gateway/libShark2NTR/libShark2NTR/Includes/draw.h",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Graphics/Rect.inl",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Window/Game.hpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Graphics/Vertex.hpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Graphics/Font.hpp",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Graphics/Text.hpp",
+		"/C/Users/Nanquitas/Desktop/Gateshark2NTR/template/Pokemon Spawner Exemple.c",
+		"/C/Users/Nanquitas/Desktop/Gateshark2NTR/template/cheats.c",
+		"/C/Users/Nanquitas/Desktop/Luma3DS/injector/source/patcher.c",
+		"/C/Users/Nanquitas/Desktop/Luma3DS/injector/source/strings.h",
+		"/C/Users/Nanquitas/Desktop/Luma3DS/injector/source/strings.c",
+		"/C/Users/Nanquitas/Desktop/Gateshark2NTR/config",
+		"/C/Users/Nanquitas/Desktop/libShark2NTR/Sources/main.c",
+		"/C/Users/Nanquitas/Desktop/libShark2NTR/Sources/gameplg.c",
+		"/C/Users/Nanquitas/Desktop/extract.py",
+		"/C/Users/Nanquitas/Desktop/Gateshark2NTR/template/cheats - Copy (2).c",
+		"/C/Users/Nanquitas/Desktop/Gateshark2NTR/template/cheats - Copy.c",
+		"/C/Users/Nanquitas/Desktop/Luma3DS/source/main.c",
+		"/C/Users/Nanquitas/Desktop/sample.c",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Includes/plugin.h",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Includes/configs.h",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Includes/hid.h",
+		"/C/Users/Nanquitas/Desktop/ACNL-NTR-Cheats/Sources/cheats_eur.c",
+		"/C/Users/Nanquitas/Documents/My Labels/Labels/test.pnl",
+		"/C/Users/Nanquitas/Documents/My Labels/Labels/test.lvr",
+		"/C/Users/Nanquitas/Documents/My Labels/Labels/test.lbl",
+		"/C/Users/Nanquitas/Desktop/patcher.c",
+		"/C/Users/Nanquitas/Downloads/Pokemon_Spawner_Exemple.c",
+		"/C/Users/Nanquitas/Downloads/Pokemon_Spawner_Exemple (1).c",
+		"/C/Users/Nanquitas/Desktop/Gateshark2NTR/template/cheats.h",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Window.hpp",
+		"/C/Users/Nanquitas/Desktop/CitroHaxEmulator/CitroHaxEmulator/Includes/UIObjects/UIObject.h",
+		"/C/Users/Nanquitas/Source/Repos/BootNTR/Makefile",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Graphics/Rect.hpp",
+		"/C/Users/Nanquitas/Source/Repos/BootNTR/source/draw.h",
+		"/C/Users/Nanquitas/Source/Repos/BootNTR/source/draw.c",
+		"/C/Users/Nanquitas/Desktop/cpp3ds-master/include/cpp3ds/Graphics/RectangleShape.hpp",
+		"/C/Users/Nanquitas/Desktop/Kernel.dis",
+		"/C/Users/Nanquitas/Desktop/Kernel.ana"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^(.+) = ",
+			"^(.+)= ",
+			"Shirt",
+			"Hat",
+			"Cap",
+			"^(.+)= ",
+			"Socks",
+			"^(.+)",
+			"^(.+)= ",
+			"0x.+:",
+			"-= 0x28380",
+			"0004013000003802",
+			"}",
+			"{",
+			" + offset",
+			"index = ",
+			"new_spoiler",
+			"new_entry",
+			"index"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"    \"",
+			"    =",
+			"Shirt\",",
+			"Hat\",",
+			"Cap\",",
+			"    \"",
+			"Socks\",",
+			"^(.+)\"",
+			"    \"",
+			"",
+			"+= 0x22A80",
+			"},",
+			"\\t{",
+			"",
+			"new_spoiler_with_note",
+			"new_entry_with_note"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Sources/utility_cheats.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4451,
+								4451
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Sources/helpers/helpers.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Sources/menu.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								631,
+								631
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Includes/common.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1218.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "Sources/hooked_cheats.s",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2674,
+								2674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Sources/notes.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1477,
+								1477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Sources/battle_cheats.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								756,
+								756
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Sources/cheats.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Sources/cheats.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1212,
+								1212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 843.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.547351524879,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Pokemon_SM_Plugin.sublime-project",
+	"replace":
+	{
+		"height": 120.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 508.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
