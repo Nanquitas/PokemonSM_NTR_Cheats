@@ -11,7 +11,7 @@ hooked_always_catch:
     ldr     r1, =0x006D839C
     cmp     r1, r0
     subeq   r0, r0, #0xF8
-    streq   r0, [sp, #0xC] //Here, I put 0x10 instead of 0xC
+    streq   r0, [sp, #0xC]
     pop     {r0, r1}
     ldmfd   sp!, {r4, pc}
 
