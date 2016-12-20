@@ -160,37 +160,58 @@ void    learn_any_tm_hm(void)
 
 void    save_slot_teleporter(void)
 {
-    static  u32     slot[4] = {0};
+    static u32 slot[10] = {0};
+    static int was_pressed = 1;
 
-    u32     offset;
-    int     i;
+    u32	 offset;
+    int	 i;
 
     // Selecting the slot
-    if (is_pressed(BUTTON_L))
+    if (is_pressed(BUTTON_B)) {
         i = 0;
-    else if (is_pressed(BUTTON_R))
+    } else if (is_pressed(BUTTON_DU)) {
         i = 2;
-    else
+    } else if (is_pressed(BUTTON_DD)) {
+        i = 4;
+    } else if (is_pressed(BUTTON_DL)) {
+        i = 6;
+	} else if (is_pressed(BUTTON_DR)) {
+        i = 8;
+    } else {
+        was_pressed = 0;
         goto exit;
+    }
     offset = READU32(0x34197890);
-    if (!offset)
-        goto exit;
+    if (!offset) goto exit;
+	
+    u32 l = READU32(0xE68 + offset);
+    u32 h = READU32(0xE70 + offset);
+
     // Saving
-    if (is_pressed(BUTTON_DU))
-    {
-        slot[i++] = READU32(0xE68 + offset);
-        slot[i] = READU32(0xE70 + offset);
+    if (is_pressed(BUTTON_R)) {
+        slot[i] = l;
+        slot[i+1] = h;
         goto exit;
     }
+
     // Restoring
-    if (is_pressed(BUTTON_DD))
-    {
-        if (slot[i] == 0 && slot[i + 1] == 0)
-            goto exit;
-        WRITEU32(0xE68 + offset, slot[i++]);
-        WRITEU32(0xE70 + offset, slot[i]);
+    if (is_pressed(BUTTON_L)) {
+        if (slot[i] == 0 && slot[i+1] == 0) goto exit;
+        if (was_pressed == 1) goto exit; // light problem with this implementation: you must press L after the slot button
+        was_pressed = 1;
+		
+        u32 tl = slot[i];
+        u32 th = slot[i+1];
+        WRITEU32(0xE68 + offset, tl);
+        WRITEU32(0xE70 + offset, th);
+
+        //saving to emergency slot
+        slot[0] = l;
+        slot[1] = h;
         goto exit;
     }
+    was_pressed = 0;
+
 exit:
     return;
 }

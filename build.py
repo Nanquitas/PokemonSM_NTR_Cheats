@@ -41,9 +41,9 @@ ASFLAGS		= " -c -s " + ARCH
 LIBFLAGS 	= " -lntr -lShark2NTR_dev -lctr -lg -lsysbase -lc -lgcc "
 LDFLAGS		= " -pie --gc-sections -T 3ds.ld -Map=%s.map " % NAME
 INCLUDES 	= " -I Includes -I Sources -I Includes/libntrplg -I Sources/helpers "
-CFILES		= allFolderFile(".\\Sources\\", ".c")
-ASFILES		= allFolderFile(".\\Sources\\", ".s")
-OFILES      = allFolderFile(".\\ofiles\\", ".o") 
+CFILES		= allFolderFile("./Sources/", ".c")
+ASFILES		= allFolderFile("./Sources/", ".s")
+OFILES      = allFolderFile("./ofiles/", ".o") 
 ftp 		= FTP()
 FILE		= COPYTOPATH
 		
@@ -98,8 +98,6 @@ if (result != 0):
 OFILES += allFile("*.o") + " " + allFile("lib/*.o") #+" " + allFile("ofiles/*.o")
 printf("Linking all files into " + COPYTOPATH);
 result = run(LD + LDFLAGS + ' ' + LIBPATH  + OFILES + LIBFLAGS )
-if (result != 0):
-	error();
 
 if (os.path.isfile("config.o")):
 	run("cp -r *.o obj/ ")
@@ -114,11 +112,14 @@ if (os.path.isfile("payload.bin")):
 if (os.path.isfile(NAME + ".map")):
 	run("rm *.map");
 
+if (result != 0):
+	error();
+
 printf("Copying the plugin in each folder...");
 shutil.copy2(COPYTOPATH, "./plugin/plugin/" + MOON_TID + "/" + NAME + "_MOON.plg");
 shutil.copy2(COPYTOPATH, "./plugin/plugin/" + SUN_TID + "/" + NAME + "_SUN.plg");
 printf("Creating the zip folder...");
-shutil.make_archive(NAME, 'zip', ".\plugin");
+shutil.make_archive(NAME, 'zip', "./plugin");
 printf("Should I send the plugin on your console ?");
 user = raw_input("> ");
 if (user == "yes" or user == "y"):
