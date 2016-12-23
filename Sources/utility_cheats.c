@@ -201,9 +201,12 @@ void    save_slot_teleporter(void)
     // Restoring if saved values are not 0
     else if (mode == 2 && slot[i] && slot[i + 1]) 
     {
-        // Saving to emergency slot
-        slot[0] = READU32(0xE68 + offset);
-        slot[1] = READU32(0xE70 + offset);
+        // Saving current position to emergency slot if the selected slot is not the emergency slot
+        if (i != 0)
+        {
+            slot[0] = READU32(0xE68 + offset);
+            slot[1] = READU32(0xE70 + offset);
+        }
         // Restoring position
         WRITEU32(0xE68 + offset, slot[i]);
         WRITEU32(0xE70 + offset, slot[i + 1]);
